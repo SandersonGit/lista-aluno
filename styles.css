@@ -1,0 +1,41 @@
+/* Estilos para a lista de alunos */
+#lista-alunos {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #lista-alunos li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  #lista-alunos li:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Estilos para o formulário de cadastro de aluno */
+  #form-aluno {
+    margin-bottom: 20px;
+  }
+  
+  #form-aluno input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #form-aluno button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #form-aluno button:hover {
+    background-color: #0056b3;
+  }
+  
